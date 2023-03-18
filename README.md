@@ -27,3 +27,5 @@ Overall, there were six models that were run and applied to the data to predict 
 ![](https://github.com/NoorAlKubati/Credit_Risk_Analysis/blob/main/Model6.png)
 6. **Easy Ensemble AdaBoost Classifier**
     - This mdel is also another ENSEMBLE model that randomly under-samples each boostrap sample to balance it. This model produced a much better balanced accuracy score than the SMOTE model, i.e., 0.73. The average precision of the model was 0.99 while the total recall across both classes was 0.78. This model better than the SMOTE model, but is still second to the previous model.
+## Summary
+After looking at the results on each model, I believe that the balanced randomforest classifier model is the winner. I would choose this model mainly because it produced a high balanced accuracy score as well as high average precision and recall scores.
