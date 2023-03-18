@@ -7,5 +7,13 @@ This project aims to utilize several machine learning algorithms to solve for cr
 ## Results 
 
 Overall, there were six models that were run and applied to the data to predict for credit risk. Below is a detailed description of each model.
+
+![](https://github.com/NoorAlKubati/Credit_Risk_Analysis/blob/main/Model1.png)
 1. **Random oversampling**
-    - In this model, the underrepresented class is oversampled in order to reach a comparable class to the larger one. 
+    - In this model, the underrepresented class is oversampled in order to reach a comparable class to the larger one, and this is done using random sample from the smaller class that in return put back into the dataset. This model yielded a balanced accuracy score of 0.67. The average precision of this model was 0.99 and the average recall was 0.60.
+![](https://github.com/NoorAlKubati/Credit_Risk_Analysis/blob/main/Model2.png)
+2. **Synthetic Minority Oversampling Technique**
+
+    - In the second model, another oversampling algorithm was employed, namely synthetic minority oversampling technique (SMOTE). This model, unlike random oversampling, new instances are interpolated into the minority class. The balanced accuracy score of this model was 0.663, which is slightly lower than the previous model. Additionally, the model's total precision was 0.99, and the average recall was 0.67. The recall rate in this model seem to be slightly better than the previous model.
+3. **Undersampling**
+    - The third model took a different approach from the previous two models. This time the majority class was undersampled in order to balance both classes.
