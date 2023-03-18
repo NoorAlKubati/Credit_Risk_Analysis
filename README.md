@@ -6,3 +6,6 @@ This project aims to utilize several machine learning algorithms to solve for cr
 
 ## Results 
 
+Overall, there were six models that were run and applied to the data to predict for credit risk. Below is a detailed description of each model.
+1. **Random oversampling**
+    - In this model, the underrepresented class is oversampled in order to reach a comparable class to the larger one. 
